@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/visu/AndroidStudioProjects/RXAudio/MediaRecorder/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ad39afdbfb1606a3f8d35e8a295ef561a933e737">
+        <dex dex="/Users/visu/AndroidStudioProjects/RXAudio/MediaRecorder/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_3313a5f30f1472f4e21b2c7b8e1a289a7cc103b1.jar" />
+    </item>
+    <item
+        jar="/Users/visu/AndroidStudioProjects/RXAudio/MediaRecorder/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5ce970ccfec23e5b426fa4bf862f17abe5ce7cd2">
+        <dex dex="/Users/visu/AndroidStudioProjects/RXAudio/MediaRecorder/app/build/intermediates/pre-dexed/debug/instant-run_b42689854f1990403e89719943671c1cd56db4fb.jar" />
+    </item>
+
+</items>
