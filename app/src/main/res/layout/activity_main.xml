@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip" 
+        android:layout_alignParentTop="true"
+        android:background="#008BED">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:text="音频文件列表" />
+
+        <Button
+            android:id="@+id/record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dip"
+            android:padding="5dip"
+            android:background="#61b2f0"
+            android:textColor="@android:color/white"
+            android:text="录音" />
+    </RelativeLayout>
+    
+    <com.i5suoi.recorder.MusicEnergy
+        android:id="@+id/music_energy"
+        android:layout_below="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip" />
+    
+    <ListView
+        android:id="@+id/listview"
+        android:layout_below="@id/music_energy"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:divider="#00000000"
+        android:dividerHeight="10dip"
+        android:fadingEdge="none"
+        android:padding="15dp"
+        android:scrollbars="none"
+        android:scrollingCache="false" >
+    </ListView>
+    
+    <TextView 
+        android:id="@+id/empty"
+        android:layout_below="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip" 
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:text="无音频文件"
+        />
+
+</RelativeLayout>
